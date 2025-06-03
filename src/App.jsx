@@ -42,17 +42,17 @@ const chatBodyRef=useRef();
       // chatbot thinking remove add real answer
       setChatHistory((prev) => {
         const updated = [...prev];
-        updated.pop(); // remove "Thinking..."
+        updated.pop(); // remove Thinking...
         return [...updated, { role: 'model', text: botResponse }];
       });
     } catch (error) {
       console.error(error.message);
       setChatHistory((prev) => {
         const updated = [...prev];
-        updated.pop(); // remove "Thinking..."
+        updated.pop(); // remove Thinking...
         return [
           ...updated,
-          { role: 'model', text: `⚠️ ${error.message}`, isError: true },
+          { role: 'model', text: ` ${error.message}`, isError: true },
         ];
       });
     }
