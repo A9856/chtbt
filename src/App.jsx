@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import ChatbotIcon from './components/ChatbotIcon';
 import ChatForm from './components/ChatForm';
 import ChatMessage from './components/ChatMessage';
+import "./assests/css/index.css"
 // import { companyWipro } from './companyWipro';
 
 export default function App() {
