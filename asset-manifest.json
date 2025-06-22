@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/chtbt/static/css/main.7586cb7e.css",
-    "main.js": "/chtbt/static/js/main.82d47146.js",
+    "main.js": "/chtbt/static/js/main.8ac4b0d5.js",
     "index.html": "/chtbt/index.html",
     "main.7586cb7e.css.map": "/chtbt/static/css/main.7586cb7e.css.map",
-    "main.82d47146.js.map": "/chtbt/static/js/main.82d47146.js.map"
+    "main.8ac4b0d5.js.map": "/chtbt/static/js/main.8ac4b0d5.js.map"
   },
   "entrypoints": [
     "static/css/main.7586cb7e.css",
-    "static/js/main.82d47146.js"
+    "static/js/main.8ac4b0d5.js"
   ]
 }
